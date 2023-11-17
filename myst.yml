@@ -46,6 +46,7 @@ project:
     MCMC: Markov chain Monte Carlo
     CSV: Comma Separated Values
     TAS: total alkalis vs silica
+    MI: melt inclusion
   options:
     journal_name: Notebooks Now!
     draft: false
