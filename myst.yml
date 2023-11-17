@@ -47,6 +47,7 @@ project:
     CSV: Comma Separated Values
     TAS: total alkalis vs silica
     MI: melt inclusion
+    SFVF: San Francisco Volcanic Field, AZ, USA
   options:
     journal_name: Notebooks Now!
     draft: false
