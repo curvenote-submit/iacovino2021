@@ -1,0 +1,13 @@
+format: jb-book
+root: Manuscript
+chapters:
+  - file: Supplement/JupyterNotebooks/Allison/S1_Testing_Allison_et_al_2019
+  - file: Supplement/JupyterNotebooks/Dixon/S2_Testing_Dixon_1997_VolatileCalc
+  - file: Supplement/JupyterNotebooks/Iacono-Marziano/S3_Testing_Iacono-Marziano_et_al_2012
+  - file: Supplement/JupyterNotebooks/Liu/S4_Testing_Liu_et_al_2005
+  - file: Supplement/JupyterNotebooks/MagmaSat/S5_Testing_Magmasat
+  - file: Supplement/JupyterNotebooks/Moore/S6_Testing_Moore_et_al_1998
+  - file: Supplement/JupyterNotebooks/Shishkina/S7_Testing_Shishkina_et_al_2014
+  - file: Supplement/JupyterNotebooks/Cerro_Negro_Calculations/S8_CerroNegro_isobar_comparison
+  - file: Supplement/JupyterNotebooks/Isobar_Comparison_Plotter/S9_Isobar_Comparison_Plotter
+  - file: Supplement/JupyterNotebooks/Model_Hybridization/S10_Model_Hybridization
