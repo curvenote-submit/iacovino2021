@@ -43,6 +43,7 @@ project:
     heading_4: true
     heading_5: true
   abbreviations:
+    VESIcal: Volatile Equilibria and Saturation Identification calculator
     MCMC: Markov chain Monte Carlo
     CSV: Comma Separated Values
     TAS: total alkalis vs silica
@@ -63,6 +64,8 @@ project:
   settings:
     output_stderr: remove
     output_matplotlib_strings: remove
+    tex:
+      code_style: minted
 site:
   title: VESIcal
   template: article-theme
