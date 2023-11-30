@@ -2,8 +2,12 @@
 version: 1
 project:
   title: 'VESIcal: An open-source thermodynamic model engine for mixed volatile (H₂O-CO₂) solubility in silicate melts'
-  subject: Original Research
-  venue: Notebooks Now!
+  subject: Research Article
+  venue: Earth and Space Science
+  open_access: true
+  biblio:
+    volume: 8
+    issue: 11
   license: CC-BY-4.0
   thumbnail: thumbnail.png
   authors:
@@ -37,11 +41,7 @@ project:
     - volatile solubility in magmas volcanology
   # bibliography: []
   numbering:
-    heading_1: true
-    heading_2: true
-    heading_3: true
-    heading_4: true
-    heading_5: true
+    headings: true
   abbreviations:
     VESIcal: Volatile Equilibria and Saturation Identification calculator
     MCMC: Markov chain Monte Carlo
