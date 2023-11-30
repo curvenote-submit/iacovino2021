@@ -1,0 +1,168 @@
+<table class="text-xs">
+  <thead>
+    <tr>
+      <th>Model/Reference</th>
+      <th>Species</th>
+      <th>P (bar)</th>
+      <th>T (°C)</th>
+      <th>Compositional range</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color: #d9d9d933">
+      <td rowspan="3">
+        <strong>MagmaSat</strong><br />
+        <cite data-label="ghiorso2015">Ghiorso and Gualda, 2015</cite>
+      </td>
+      <td>H<sub>2</sub>O</td>
+      <td>0–20,000<sup>1</sup></td>
+      <td>550-1420<sup>1</sup></td>
+      <td rowspan="3">
+        Very broad compositional range of natural silicate melts: subalkaline picrobasalts to
+        rhyolites, including a variety of mafic and silicic alkaline compositions
+      </td>
+      <td rowspan="3">
+        <sup>1</sup>Ranges extracted from Fig. 2d of
+        <cite data-label="ghiorso2015">Ghiorso and Gualda. 2015</cite>
+      </td>
+    </tr>
+    <tr style="background-color: #d9d9d933">
+      <td>CO<sub>2</sub></td>
+      <td>0–30,000<sup>1</sup></td>
+      <td>1139-1400<sup>1</sup></td>
+    </tr>
+    <tr style="background-color: #d9d9d933">
+      <td>H<sub>2</sub>O - CO<sub>2</sub></td>
+      <td>0–10,000<sup>1</sup></td>
+      <td>800-1400<sup>1</sup></td>
+    </tr>
+    <tr style="background-color: #7b99f333" id="dixon-calibration">
+      <td>
+        <strong>Dixon</strong><br />
+        Simplification of <cite data-label="dixon1997">Dixon (1997)</cite> used in VolatileCalc
+        (<cite data-label="newman2002">Newman and Lowenstern, 2002</cite>)
+      </td>
+      <td>H<sub>2</sub>O - CO<sub>2</sub></td>
+      <td>0-5000<sup>1</sup><br />0-2000<sup>2</sup><br />0-1000<sup>3</sup></td>
+      <td>600-1500<sup>1</sup><br />(1200)<sup>4</sup></td>
+      <td>Alkali basalts:<br />40-49 wt% SiO2</td>
+      <td>
+        <sup>1</sup>Warnings implemented in VolatileCalc (<cite data-label="newman2002"
+          >Newman and Lowenstern, 2002</cite
+        >).<br />
+        <sup>2</sup>Calibration range suggested by
+        <cite data-label="lesne2011">Lesne et al. (2011)</cite><br />
+        <sup>3</sup>Calibration range suggested by
+        <cite data-label="iacono2012">Iacono-Marziano et al. (2012)</cite><br />
+        <sup>4</sup>Calibration temperature of <cite data-label="dixon1997">Dixon (1997)</cite
+        ><br />
+      </td>
+    </tr>
+    <tr style="background-color: #7ec17433">
+      <td>
+        <strong>MooreWater</strong><br /><cite data-label="moore1998">Moore et al. 1998</cite>
+      </td>
+      <td>H<sub>2</sub>O</td>
+      <td>0–3000<sup>1</sup></td>
+      <td>700–1200<sup>1</sup></td>
+      <td>
+        Broad compositional range: subalkaline basalts to rhyolites, alkaline
+        trachybasalts-andesites, foidites, phonolites
+      </td>
+      <td>
+        <sup>1</sup>Author-suggested calibration range. The calibration dataset spans 190 to 6067
+        bar, and 800-1200°C
+      </td>
+    </tr>
+    <tr style="background-color: #94ebf633">
+      <td><strong>Liu</strong><br /><cite data-label="liu2005">Liu et al. 2005</cite></td>
+      <td>H<sub>2</sub>O - CO<sub>2</sub></td>
+      <td>0-5000<sup>1</sup></td>
+      <td>700–1200<sup>1</sup></td>
+      <td>Haplogranites and rhyolites</td>
+      <td>
+        <sup>1</sup>Author-suggested calibration range for the mixed fluid model. The calibration
+        dataset covers 750-5510 bar and 800-1150°C for the Carbon model, and 1-5000 bar and 700-1200
+        °C for the water model
+      </td>
+    </tr>
+    <tr style="background-color: #dfa5eb33">
+      <td>
+        <strong>Iacono-Marziano</strong><br /><cite data-label="iacono2012"
+          >Iacono-Marziano et al., 2012</cite
+        >
+      </td>
+      <td>H<sub>2</sub>O - CO<sub>2</sub></td>
+      <td>95–10,500 (mostly &lt;5000)<sup>1</sup></td>
+      <td>1100-1400 (preferably 1200- 1300)<sup>2</sup></td>
+      <td>Predominantly mafic compositions: subalkaline and alkaline basalts-andesites</td>
+      <td>
+        <p>
+          <sup>1</sup>Range of calibration dataset, as authors do not specifically state a
+          calibration range. We note that the vast majority of experiments were conducted at
+          &lt;5000 bar.
+        </p>
+        <p>
+          <sup>2</sup>Authors state that most experiments were conducted between 1200-1300°C (whole
+          range 1100-1400°C
+        </p>
+      </td>
+    </tr>
+    <tr style="background-color: #e7c8a233">
+      <td rowspan="2">
+        <strong>Shishkina</strong><br /><cite data-label="shishkina2014"
+          >Shishkina et al. 2014</cite
+        >
+      </td>
+      <td>H<sub>2</sub>O<sup>1</sup></td>
+      <td>0–5000<sup>2</sup></td>
+      <td>1050–1400 (preferably 1150- 1250)<sup>2,&nbsp;3</sup></td>
+      <td>
+        Mafic and intermediate compositions: Subalkaline basalts- basaltic andesites, alkali
+        basanites-phonolites. SiO2&lt;65 wt%.
+      </td>
+      <td rowspan="2">
+        <p>
+          <sup>1</sup>Although their empirical expressions are for pure fluids, they were mostly
+          calibrated on mixed CO<sub>2</sub>-H<sub>2</sub>O experiments.
+        </p>
+        <p><sup>2</sup>Author-suggested range</p>
+        <p><sup>3</sup>Note, this model contains no temperature term.</p>
+      </td>
+    </tr>
+    <tr style="background-color: #e7c8a233">
+      <td>CO<sub>2</sub><sup>1</sup></td>
+      <td>500–5000<sup>2</sup></td>
+      <td>1200–1250<sup>2,&nbsp;3</sup></td>
+      <td>
+        Predominantly mafic compositions: subalkaline basalts, alkaline basanites, trachybasalts
+      </td>
+    </tr>
+    <tr style="background-color: #ffffa633">
+      <td>
+        <strong>AllisonCarbon</strong><br /><cite data-label="allison2019"
+          >Allison et al., 2019</cite
+        >
+      </td>
+      <td>CO<sub>2</sub></td>
+      <td>0-7000<sup>1</sup></td>
+      <td>1200<sup>2</sup><br />(~1000-1400)</td>
+      <td>
+        Alkali-rich mafic magmas from six volcanic fields. Separate model coefficients for each
+        composition.
+      </td>
+      <td>
+        <p>
+          <sup>1</sup>Author-suggested range. The calibration dataset spans: (SFVF: 4133–6141 bar,
+          Sunset Crater: 4071-6098 bar, Erebus: 4078-6175 bar, Vesuvius: 269-6175 bar,
+          Etna=485-6199, Stromboli=524-6080)
+        </p>
+        <p>
+          <sup>2</sup>Note, all calculations performed at 1200°C (the experimental temperature).
+          Authors suggest results generally applicable between 1000-1400°C
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>

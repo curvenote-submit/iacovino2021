@@ -49,6 +49,7 @@ project:
     TAS: total alkalis vs silica
     MI: melt inclusion
     SFVF: San Francisco Volcanic Field, AZ, USA
+    Etna: Etna, Italy
   options:
     journal_name: Notebooks Now!
     draft: false
