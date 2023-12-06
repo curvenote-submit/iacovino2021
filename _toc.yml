@@ -1,6 +1,8 @@
 format: jb-book
 root: Manuscript
 chapters:
+  - file: NotebooksNow/Interaction1_plotting
+  - file: NotebooksNow/Interaction1_dataset_creation
   - file: Supplement/JupyterNotebooks/Allison/S1_Testing_Allison_et_al_2019
   - file: Supplement/JupyterNotebooks/Dixon/S2_Testing_Dixon_1997_VolatileCalc
   - file: Supplement/JupyterNotebooks/Iacono-Marziano/S3_Testing_Iacono-Marziano_et_al_2012
