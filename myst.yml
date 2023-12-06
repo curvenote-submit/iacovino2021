@@ -67,6 +67,7 @@ project:
     output_matplotlib_strings: remove
     tex:
       code_style: minted
+  jupyter: true
 site:
   title: VESIcal
   template: article-theme
