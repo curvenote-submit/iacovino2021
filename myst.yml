@@ -62,12 +62,22 @@ project:
       article: Manuscript.ipynb
       output: tex.zip
       template: agu2019
+    - format: meca
+      article: Manuscript.ipynb
+      output: meca.zip
   settings:
     output_stderr: remove
     output_matplotlib_strings: remove
     tex:
       code_style: minted
   jupyter: true
+  requirements:
+    - Dockerfile
+  resources:
+    - figures/*
+    - NotebooksNow/*
+    - Supplement/**/*
+    - tables/*
 site:
   title: VESIcal
   template: article-theme
